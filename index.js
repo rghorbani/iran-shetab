@@ -225,6 +225,9 @@ var validate = function (str) {
 module.exports.isValid = validate;
 
 module.exports.recognize = function (str) {
+  str = str.replace(/-/g, '');
+  str = str.replace(/ /g, '');
+
   if (!validate(str)) {
     return false;
   }
