@@ -1,0 +1,49 @@
+{
+  "name": "iran-shetab",
+  "version": "1.0.0",
+  "description": "Iranian Bank Shetab validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rghorbani/iran-shetab"
+  },
+  "keyword": [
+    "iran",
+    "bank",
+    "shetab",
+    "card",
+    "credit",
+    "debit",
+    "persian",
+    "farsi",
+    "IBAN",
+    "ISO-13616",
+    "transfer"
+  ],
+  "author": {
+    "name": "Reza Ghorbani",
+    "email": "r.ghorbani.f@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rghorbani/iran-shetab/issues"
+  },
+  "homepage": "https://github.com/rghorbani/iran-shetab",
+  "_npmUser": {
+    "name": "rghorbani",
+    "email": "r.ghorbani.f@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "rghorbani",
+      "email": "r.ghorbani.f@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "babel-eslint": "~6.1.2",
+    "eslint": "~3.1.1"
+  }
+}
