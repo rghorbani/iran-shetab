@@ -13,7 +13,7 @@ console.log(Sheba.isValid('636214-1075165358')); // true
 console.log('----------------------');
 console.log('+ Sheba.recognize');
 console.log(Sheba.recognize('6221061106498670')); // true
-console.log(Sheba.recognize('6362-141075165358')); // true
+console.log(Sheba.recognize('6362-1410-7516-5358')); // true
 
 console.log('----------------------');
 console.log('+ Sheba.banks');

@@ -1,6 +1,6 @@
 {
   "name": "iran-shetab",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Iranian Bank Shetab validator",
   "main": "index.js",
   "scripts": {
