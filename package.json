@@ -1,10 +1,11 @@
 {
   "name": "iran-shetab",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Iranian Bank Shetab validator",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -28,22 +29,19 @@
     "email": "r.ghorbani.f@gmail.com"
   },
   "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.0",
+    "eslint-config-kajoo": "^1.4.1"
+  },
   "bugs": {
     "url": "https://github.com/rghorbani/iran-shetab/issues"
   },
   "homepage": "https://github.com/rghorbani/iran-shetab",
-  "_npmUser": {
-    "name": "rghorbani",
-    "email": "r.ghorbani.f@gmail.com"
-  },
-  "maintainers": [
+  "contributors": [
     {
       "name": "rghorbani",
       "email": "r.ghorbani.f@gmail.com"
     }
-  ],
-  "devDependencies": {
-    "babel-eslint": "~6.1.2",
-    "eslint": "~3.1.1"
-  }
+  ]
 }
